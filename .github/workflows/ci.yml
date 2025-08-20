@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ main ]
 env:
-  IMAGE: ${{ secrets.DOCKHUB_USERNAME }}/webapp-release:v1
+  IMAGE: ${{ secrets.DOCKHUB_USERNAME }}/webapp-release:v2
 
 jobs:
   build-test-and-push:
